@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "mac-vintage-hdmi") (type "KiCad") (uri "${KIPRJMOD}/lib/mac-vintage-hdmi.kicad_sym") (options "") (descr "Project-local symbols"))
+)

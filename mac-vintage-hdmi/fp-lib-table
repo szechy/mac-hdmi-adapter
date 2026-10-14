@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "mac-vintage-hdmi") (type "KiCad") (uri "${KIPRJMOD}/lib/mac-vintage-hdmi.pretty") (options "") (descr "Project-local footprints"))
+)
