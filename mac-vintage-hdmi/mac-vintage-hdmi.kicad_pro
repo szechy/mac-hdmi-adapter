@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -69,8 +69,155 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|103334163|35397500|a41f7330-88ee-42d5-a2d8-afe231d1c88b|c12696d4-c4e8-472e-aed0-e23f46bbcc99",
+          "intentional"
+        ],
+        [
+          "courtyards_overlap|103869932|46785000|9966cbe3-f3bf-479e-bacf-f29177818a7c|a1515b7b-733d-46d4-928a-ba8cfcafbd5e",
+          "intentional"
+        ],
+        [
+          "diff_pair_gap_out_of_range|7565000|39330000|cb3c1273-5190-497c-8d2b-1b0742d931e3|c85dacd2-b698-495e-be61-44e263c2150c",
+          "intentional"
+        ],
+        [
+          "hole_clearance|6440000|37030000|7455d53a-2903-457d-9c7b-68916deb4b99|30111384-2a88-46b5-adb5-1255e5a44731",
+          "footprint design, accepted"
+        ],
+        [
+          "hole_clearance|6440000|43130000|cbf7befd-ddd5-40bd-a8d4-69cf2a3295d2|57b6ef27-013c-4784-bbbf-c011c7e89706",
+          "footprint design, accepted"
+        ],
+        [
+          "silk_overlap|10750000|33000000|1a7e24bf-5d6d-404b-aa28-455f7fc2683c|1d03b07f-335f-4f8e-9c3c-aabe7231cdf6",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|10750000|35000000|fa04c311-c21e-4a5b-ba91-dbf47fb3710c|1d03b07f-335f-4f8e-9c3c-aabe7231cdf6",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|11250000|41250000|9f799c1d-4495-4954-b9a2-33c48ac81d89|5b6000a3-fa38-4a48-a62d-e6e127ca6d3e",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|11250000|43250000|de7bff61-7b17-42b6-ac4a-69d93e7022d5|5b6000a3-fa38-4a48-a62d-e6e127ca6d3e",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|121500000|31310000|18136d8f-d0c8-46bc-a450-f32b16236355|ef7377bb-7406-4526-bcef-2874219f747f",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|124000000|31310000|18136d8f-d0c8-46bc-a450-f32b16236355|78689725-3705-4df8-85d1-5116a93f2ec1",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|126500000|31310000|18136d8f-d0c8-46bc-a450-f32b16236355|d65d4a2f-cbe0-4480-8300-419c85ce8667",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|132620000|5102500|72bb1b2b-6325-4ab8-820a-cfb1f72c009b|7eb8d351-9ed3-4b09-9def-b1c5014e1745",
+          "accepted"
+        ],
+        [
+          "silk_overlap|132620000|7102500|11e2925e-8000-42ed-9eb6-d07905b18d37|7eb8d351-9ed3-4b09-9def-b1c5014e1745",
+          "accepted"
+        ],
+        [
+          "silk_overlap|134620000|5102500|937495b3-69c5-4774-9c32-0fed961009d0|7eb8d351-9ed3-4b09-9def-b1c5014e1745",
+          "accepted"
+        ],
+        [
+          "silk_overlap|134620000|7102500|de9010c7-de10-4b27-8b25-de2db1b356de|7eb8d351-9ed3-4b09-9def-b1c5014e1745",
+          "accepted"
+        ],
+        [
+          "silk_overlap|15250000|15500000|db95c754-242e-46d4-8264-1a2d7fab7a0e|d2ce5965-ff80-4ec8-ae43-41d0e7daf989",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|15250000|17500000|fedf215d-f827-4f43-ae77-c36d6e2906e5|d2ce5965-ff80-4ec8-ae43-41d0e7daf989",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|17250000|15500000|2241eafb-348a-44c3-b30f-9a6bc72b532f|d2ce5965-ff80-4ec8-ae43-41d0e7daf989",
+          "accepted"
+        ],
+        [
+          "silk_overlap|17250000|17500000|d8756b9a-8ec6-4396-9314-1a524bc814b2|d2ce5965-ff80-4ec8-ae43-41d0e7daf989",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|22450000|11488338|8043acb4-5eec-4c24-9de6-0373cad885be|3aebc192-847c-43a8-a2bb-6fdb4e4177f4",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|22450000|12688338|a5ea5f90-1d3a-4ef9-9adf-60ebb120d8ef|3aebc192-847c-43a8-a2bb-6fdb4e4177f4",
+          "accepable"
+        ],
+        [
+          "silk_overlap|34000000|10000000|abcb622d-03c9-4e92-93d0-e70cae75a2b3|f316a319-b845-4554-829a-954cc1f5a8ac",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|34000000|8000000|065752cf-a942-421c-b9b9-ff0164ced17e|f316a319-b845-4554-829a-954cc1f5a8ac",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|36000000|10000000|5c619129-4bb3-45a2-ab70-d933de7ba676|f316a319-b845-4554-829a-954cc1f5a8ac",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|36000000|8000000|a18997b7-a60f-4b92-a359-13781b8028e6|f316a319-b845-4554-829a-954cc1f5a8ac",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|8095000|18100000|d70a06e7-9b7b-493f-bb47-a16747bbca53|f931e542-ec84-4ae9-a540-0bdaeedd6163",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|8095000|27400000|e4aa5c15-f789-4a93-a2af-931909f87b19|4a07f6a2-947a-49ed-88ab-9e2bf7374229",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|8750000|33000000|23f52941-b120-4fc9-a5e8-e12a2a858a5d|1d03b07f-335f-4f8e-9c3c-aabe7231cdf6",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|8750000|35000000|04c2d3ad-4f1c-4d19-bfa1-35097217245d|1d03b07f-335f-4f8e-9c3c-aabe7231cdf6",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|9250000|41250000|329e95af-454c-4b47-b1f6-9a0ebf6cb837|5b6000a3-fa38-4a48-a62d-e6e127ca6d3e",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|9250000|43250000|1b2d6280-f795-4a01-ae55-066476fb4166|5b6000a3-fa38-4a48-a62d-e6e127ca6d3e",
+          "acceptable"
+        ],
+        [
+          "silk_overlap|9425000|27400000|953a426a-b24d-4802-9ca7-fda512d35343|4a07f6a2-947a-49ed-88ab-9e2bf7374229",
+          "acceptable"
+        ],
+        [
+          "skew_out_of_range|13750000|40500000|da89420a-41f0-4eb7-87ec-1b82a7450a04|00000000-0000-0000-0000-000000000000",
+          "required for breakout"
+        ],
+        [
+          "skew_out_of_range|15750000|38500000|ffff36fc-3d16-4084-9d6a-c1ad3152acf5|00000000-0000-0000-0000-000000000000",
+          "required for breakout"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -148,7 +295,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -203,7 +350,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +379,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -260,7 +414,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|2616200|1117600|c91f0502-c947-49ac-86f6-abbbe6ac8649|a61e5a33-8423-4986-b3b3-01016216d327|/13e48c44-097d-4a9e-b5ad-c93c72414a8b|/13e48c44-097d-4a9e-b5ad-c93c72414a8b|/13e48c44-097d-4a9e-b5ad-c93c72414a8b",
+        "this is intentional for tracking which caps go on which rails"
+      ],
+      [
+        "multiple_net_names|4521200|1181100|438a8df8-9ced-4b77-942e-7246ab752a03|2c364611-5a58-4c11-b626-abffaa05ba45|/13e48c44-097d-4a9e-b5ad-c93c72414a8b|/13e48c44-097d-4a9e-b5ad-c93c72414a8b|/13e48c44-097d-4a9e-b5ad-c93c72414a8b",
+        "this is intentional for tracking which caps go on which rails"
+      ],
+      [
+        "multiple_net_names|685800|4038600|7d40d927-7a24-445f-9447-a817f592a9bb|34bd5864-1743-46ee-9baf-e74248e75005|/05ea0ec1-beac-48db-ac0f-53255a4cab75|/05ea0ec1-beac-48db-ac0f-53255a4cab75|/05ea0ec1-beac-48db-ac0f-53255a4cab75",
+        "This is intentional and ok"
+      ],
+      [
+        "multiple_net_names|723900|4038600|7d40d927-7a24-445f-9447-a817f592a9bb|34bd5864-1743-46ee-9baf-e74248e75005|/05ea0ec1-beac-48db-ac0f-53255a4cab75|/05ea0ec1-beac-48db-ac0f-53255a4cab75|/05ea0ec1-beac-48db-ac0f-53255a4cab75",
+        "this is intentional"
+      ],
+      [
+        "multiple_net_names|723900|4038600|9f3c1a09-6e83-414a-9671-2c05031230b6|34bd5864-1743-46ee-9baf-e74248e75005|/05ea0ec1-beac-48db-ac0f-53255a4cab75|/05ea0ec1-beac-48db-ac0f-53255a4cab75|/05ea0ec1-beac-48db-ac0f-53255a4cab75",
+        "this is intentional"
+      ],
+      [
+        "pin_to_pin|1016000|1168400|293b654f-1b53-4541-b786-4820b2dbbe64|650c018c-222c-4595-92b6-31d40e272fe2|/13e48c44-097d-4a9e-b5ad-c93c72414a8b|/13e48c44-097d-4a9e-b5ad-c93c72414a8b|/13e48c44-097d-4a9e-b5ad-c93c72414a8b",
+        "Ideal diode setup - this is intentional"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -511,6 +690,27 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "50_SE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "50_SE"
+      },
+      {
+        "name": "HDMI_TMDS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "HDMI_100R"
+      },
+      {
+        "name": "USB2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "USB_90R"
       }
     ],
     "meta": {
@@ -518,7 +718,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HDMI_TMDS",
+        "pattern": "*HDMI_CLK*"
+      },
+      {
+        "netclass": "HDMI_TMDS",
+        "pattern": "*HDMI_LN*"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "*USB2_D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -611,14 +824,44 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -666,7 +909,7 @@
         "uuid": "13e48c44-097d-4a9e-b5ad-c93c72414a8b"
       }
     ],
-    "used_designators": "SW1-3,L1-2,Y1-3,U1-11,TP1-3,R1-81,Q1-10,D1-16,C1-77,#PWR1-158,J1-12",
+    "used_designators": "#FLG1-12,D1-16,#PWR1-162,Y1-3,TP1-5,FB1-3,C1-86,U1-13,SW1-3,RV1,Q1-10,L1-2,R1-84,J1-12",
     "variants": []
   },
   "sheets": [
@@ -684,6 +927,85 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": false,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 0,
+            "diff_pair_gap": 203200,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 248900
+          }
+        ],
+        "profile_name": "HDMI_100R",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 0,
+            "diff_pair_gap": 203200,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 334500
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 0,
+            "diff_pair_gap": 203200,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 241800
+          }
+        ],
+        "profile_name": "USB_90R",
+        "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 300000
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "In1.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 291600
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 0,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 300000
+          }
+        ],
+        "profile_name": "50_SE",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
