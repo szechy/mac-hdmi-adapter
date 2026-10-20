@@ -1,0 +1,4 @@
+- [mac-vintage-hdmi project](mac-vintage-hdmi-project.md) — ADV7611 + RP2354B (iCE40 variant split out), KiCad 10; project lib at ee/mac-vintage-hdmi/lib; full-netlist recipe
+- [ADI docs access](adi-docs-access.md) — analog.com/SnapEDA block fetches; use Wayback id_ URLs for package drawings
+- [Symbols show all pins](symbols-show-all-pins.md) — one visible pin per physical pad; no hidden/stacked pins or duplicate pad numbers
+- [Impedance table](impedance-table.md) — User.3 "Impedance" fab table in JLC form layout; coplanar calls, EXTRA_LAYERS, table s-expr recipe
