@@ -952,14 +952,6 @@
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
             "width": 334500
-          },
-          {
-            "bottom_reference_layer": "B.Cu",
-            "delay": 0,
-            "diff_pair_gap": 203200,
-            "signal_layer": "In2.Cu",
-            "top_reference_layer": "In1.Cu",
-            "width": 241800
           }
         ],
         "profile_name": "USB_90R",
@@ -978,14 +970,6 @@
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
             "width": 300000
-          },
-          {
-            "bottom_reference_layer": "In2.Cu",
-            "delay": 0,
-            "diff_pair_gap": 0,
-            "signal_layer": "In1.Cu",
-            "top_reference_layer": "F.Cu",
-            "width": 291600
           },
           {
             "bottom_reference_layer": "In2.Cu",

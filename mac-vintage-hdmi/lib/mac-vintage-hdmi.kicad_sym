@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "ADV7611"
+	(symbol "ADV7611BSWZ"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19,7 +19,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADV7611"
+		(property "Value" "ADV7611BSWZ"
 			(at 30.48 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85,7 +85,7 @@
 				)
 			)
 		)
-		(symbol "ADV7611_0_1"
+		(symbol "ADV7611BSWZ_0_1"
 			(rectangle
 				(start -30.48 48.26)
 				(end 30.48 -48.26)
@@ -98,7 +98,7 @@
 				)
 			)
 		)
-		(symbol "ADV7611_1_1"
+		(symbol "ADV7611BSWZ_1_1"
 			(pin bidirectional line
 				(at -33.02 15.24 0)
 				(length 2.54)
@@ -7600,7 +7600,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RCLAMP0524PA"
+	(symbol "RCLAMP0524PATCT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7617,7 +7617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RCLAMP0524PA"
+		(property "Value" "RCLAMP0524PATCT"
 			(at -7.62 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +7683,7 @@
 				)
 			)
 		)
-		(symbol "RCLAMP0524PA_0_1"
+		(symbol "RCLAMP0524PATCT_0_1"
 			(rectangle
 				(start -7.62 6.35)
 				(end 7.62 -6.35)
@@ -7696,7 +7696,7 @@
 				)
 			)
 		)
-		(symbol "RCLAMP0524PA_1_1"
+		(symbol "RCLAMP0524PATCT_1_1"
 			(pin passive line
 				(at -10.16 3.81 0)
 				(length 2.54)
@@ -16612,6 +16612,164 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "HX_PZ2.54-1x2P_ZZ"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX PZ2.54-1x2P ZZ"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mac-vintage-hdmi:PinHeader_1x02_P2.54mm_Vertical"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C32713268.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hanxia 1x02 2.54mm straight male pin header, through-hole, single row, 2.5mm insulator, 6mm mating pin, gold (LCSC C32713268)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector pin header 2.54mm THT Hanxia"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "HX_PZ2.54-1x2P_ZZ_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
