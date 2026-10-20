@@ -7641,18 +7641,6 @@
 		)
 		(uuid "1f1d9fa5-af6b-4c07-aae6-7d2c43cd0388")
 	)
-	(text "todo: figure out audio solution\njust break out signals to another possible board\nunless there is an easy audio solution that can fit within current limits\n\nWhat does the sound signal input into the display board, need?"
-		(exclude_from_sim no)
-		(at 231.902 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 19 255 0 1)
-			)
-			(justify left)
-		)
-		(uuid "23b1812f-3bd1-4484-8037-d6ebcafad31c")
-	)
 	(text "Use 16-bit SDR ITU-R BT.656 4:2:2 Mode 0\nmeans P8-P15 are Y0-Y7 (lume)\nand throw away the other color info!!"
 		(exclude_from_sim no)
 		(at 200.66 26.162 0)
@@ -7784,6 +7772,17 @@
 			)
 		)
 		(uuid "d23399ba-4554-4d13-b690-04ea26377798")
+	)
+	(text "L2 alternates on LCSC (unmarked;\norientation will be random):\nC5832345 Changjiang FTC201610S3R3MBCA\nC41405891 YJYCOIN YSMC201612H-3R3MB*\nC39846627 XR XRIM201612S3R3MBCA*\nC48945398 ZE ZET-CORE-201608ST3R3MBCA\n*1.2 mm tall. All meet RP2350 DS\n§6.3.8.2: DCR ≤250mΩ, Isat ≥1.5A."
+		(exclude_from_sim no)
+		(at 50.8 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d9aeeea0-3738-49c8-814d-af72e362503d")
 	)
 	(text "ADV7611 LEDs"
 		(exclude_from_sim no)
@@ -8635,6 +8634,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 143.51) (xy 295.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146ee55f-8352-491c-8669-f240b60fb07e")
+	)
+	(wire
+		(pts
 			(xy 208.28 345.44) (xy 208.28 344.17)
 		)
 		(stroke
@@ -8835,7 +8844,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 130.81) (xy 207.01 130.81)
+			(xy 207.01 130.81) (xy 232.41 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8945,7 +8954,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 135.89) (xy 207.01 135.89)
+			(xy 207.01 135.89) (xy 232.41 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9235,6 +9244,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 351.79) (xy 326.39 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ed316d-b521-4f73-8ead-0c54abb1565a")
+	)
+	(wire
+		(pts
 			(xy 46.99 137.16) (xy 46.99 132.08)
 		)
 		(stroke
@@ -9355,6 +9374,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 148.59) (xy 295.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d266cc3-497d-4ecd-b0b5-91d4a9b60dc1")
+	)
+	(wire
+		(pts
 			(xy 87.63 77.47) (xy 87.63 78.74)
 		)
 		(stroke
@@ -9412,6 +9441,16 @@
 			(type default)
 		)
 		(uuid "4087eb30-861c-4d3a-9ce0-04d2560836f0")
+	)
+	(wire
+		(pts
+			(xy 300.99 354.33) (xy 326.39 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41defeb9-1d8c-4387-bbaa-947afcf476dc")
 	)
 	(wire
 		(pts
@@ -9942,16 +9981,6 @@
 			(type default)
 		)
 		(uuid "66f50ed5-676e-4388-a69a-6dff963351e1")
-	)
-	(wire
-		(pts
-			(xy 321.31 344.17) (xy 300.99 344.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6702065a-9424-48f6-95d0-771e34329630")
 	)
 	(wire
 		(pts
@@ -10495,16 +10524,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 354.33) (xy 321.31 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ede6fe-a72a-48f0-9625-db3ca909d5db")
-	)
-	(wire
-		(pts
 			(xy 55.88 85.09) (xy 74.93 85.09)
 		)
 		(stroke
@@ -10585,6 +10604,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 143.51) (xy 256.54 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f70330-cbd7-477b-b698-7bdb426efbc6")
+	)
+	(wire
+		(pts
 			(xy 52.07 105.41) (xy 52.07 107.95)
 		)
 		(stroke
@@ -10602,16 +10631,6 @@
 			(type default)
 		)
 		(uuid "89ad683d-6a40-44e0-b0df-45d34694bfb1")
-	)
-	(wire
-		(pts
-			(xy 321.31 346.71) (xy 300.99 346.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a46ff75-6609-4493-b097-4fa5d4147152")
 	)
 	(wire
 		(pts
@@ -10855,6 +10874,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 346.71) (xy 326.39 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cfb6a0e-c233-46cf-96fe-fe880540c67d")
+	)
+	(wire
+		(pts
 			(xy 101.6 248.92) (xy 102.87 248.92)
 		)
 		(stroke
@@ -11055,16 +11084,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 351.79) (xy 321.31 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a71798-5873-457a-819e-b67e2c8fbbba")
-	)
-	(wire
-		(pts
 			(xy 44.45 246.38) (xy 44.45 248.92)
 		)
 		(stroke
@@ -11142,6 +11161,16 @@
 			(type default)
 		)
 		(uuid "ac733cdd-8120-44d3-b813-02191db046bd")
+	)
+	(wire
+		(pts
+			(xy 300.99 344.17) (xy 326.39 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb5dd81-c2b6-4b7c-8b88-003dbad0cdd0")
 	)
 	(wire
 		(pts
@@ -11575,7 +11604,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 133.35) (xy 207.01 133.35)
+			(xy 207.01 133.35) (xy 232.41 133.35)
 		)
 		(stroke
 			(width 0)
@@ -11915,6 +11944,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 153.67) (xy 295.91 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbc1a59-f5bd-4af3-9c2f-56a10f081474")
+	)
+	(wire
+		(pts
 			(xy 72.39 403.86) (xy 93.98 403.86)
 		)
 		(stroke
@@ -12075,6 +12114,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 153.67) (xy 256.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62a3798-f184-4128-ab3c-4ceeac06b89f")
+	)
+	(wire
+		(pts
 			(xy 113.03 101.6) (xy 113.03 102.87)
 		)
 		(stroke
@@ -12102,6 +12151,16 @@
 			(type default)
 		)
 		(uuid "da38ef4e-157e-4caf-8165-cfd783be4aa4")
+	)
+	(wire
+		(pts
+			(xy 281.94 148.59) (xy 256.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5f0256-9366-472d-a8a5-d9bdd419be14")
 	)
 	(wire
 		(pts
@@ -12893,6 +12952,16 @@
 		)
 		(uuid "12675333-7343-4b6c-bcb8-b220ff82dd17")
 	)
+	(label "I2S_ADV7611_SCLK_R"
+		(at 232.41 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "140a0746-f877-47bf-a2ef-db043c2bbe13")
+	)
 	(label "ADV7611_RESET_L"
 		(at 402.59 345.44 180)
 		(effects
@@ -12953,8 +13022,8 @@
 		)
 		(uuid "2424626c-8733-4c1e-82eb-a2b86d3f2cbc")
 	)
-	(label "ADV7611_Y7"
-		(at 321.31 344.17 180)
+	(label "ADV7611_Y7_RP2350"
+		(at 326.39 344.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13203,8 +13272,8 @@
 		)
 		(uuid "56eeca46-b837-4abd-8ffc-11b21d5cfe7d")
 	)
-	(label "ADV7611_Y1"
-		(at 321.31 354.33 180)
+	(label "ADV7611_Y1_RP2350"
+		(at 326.39 354.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13363,6 +13432,16 @@
 		)
 		(uuid "680d06f1-8de5-4ba2-80de-bbbff5958285")
 	)
+	(label "I2S_ADV7611_DOUT_R"
+		(at 256.54 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68446933-ca56-467c-b0cf-5db396264f13")
+	)
 	(label "ADV7611_CB3CR3"
 		(at 267.97 377.19 0)
 		(effects
@@ -13453,7 +13532,17 @@
 		)
 		(uuid "7386c259-5a36-456a-b897-610510f7c10b")
 	)
-	(label "ADV7611_Y4"
+	(label "I2S_ADV7611_LRCLK_R"
+		(at 256.54 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "748709bf-640f-4163-b088-b075fb3ec789")
+	)
+	(label "ADV7611_Y4_RP2350"
 		(at 266.7 346.71 0)
 		(effects
 			(font
@@ -13513,7 +13602,7 @@
 		)
 		(uuid "7d7e2337-2f64-4f7f-b648-1e163bc0e9d6")
 	)
-	(label "ADV7611_Y6"
+	(label "ADV7611_Y6_RP2350"
 		(at 266.7 344.17 0)
 		(effects
 			(font
@@ -13623,7 +13712,7 @@
 		)
 		(uuid "8e366c33-bd74-439a-a971-2989923ebe07")
 	)
-	(label "ADV7611_Y2"
+	(label "ADV7611_Y2_RP2350"
 		(at 266.7 351.79 0)
 		(effects
 			(font
@@ -13673,8 +13762,8 @@
 		)
 		(uuid "954ce5c9-fa34-4447-bed6-112e439bc243")
 	)
-	(label "ADV7611_Y3"
-		(at 321.31 351.79 180)
+	(label "ADV7611_Y3_RP2350"
+		(at 326.39 351.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13682,6 +13771,16 @@
 			(justify right bottom)
 		)
 		(uuid "955627fb-aa00-4a6b-ae97-aabee75712ba")
+	)
+	(label "I2S_ADV7611_SCLK_R"
+		(at 256.54 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "990a6cee-ace8-4ab8-81cd-1bf8f6310b02")
 	)
 	(label "ADV7611_DE"
 		(at 349.25 342.9 0)
@@ -13722,6 +13821,16 @@
 			(justify left bottom)
 		)
 		(uuid "9d314971-44b1-41a2-9a8f-2b1f88791327")
+	)
+	(label "I2S_ADV7611_LRCLK_R"
+		(at 232.41 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e3920f7-dba2-45a5-97b1-9361fa55d213")
 	)
 	(label "ADV7611_HS"
 		(at 349.25 345.44 0)
@@ -13803,7 +13912,7 @@
 		)
 		(uuid "ab29f0a4-72e7-4d60-b8cb-dc4414f06ce5")
 	)
-	(label "ADV7611_Y0"
+	(label "ADV7611_Y0_RP2350"
 		(at 266.7 354.33 0)
 		(effects
 			(font
@@ -13953,6 +14062,16 @@
 		)
 		(uuid "cc26d904-cd28-45de-9f7a-6d614d81bc9b")
 	)
+	(label "I2S_ADV7611_DOUT_R"
+		(at 232.41 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd84395b-4930-4931-bd05-db5c101d0f73")
+	)
 	(label "HDMI_DDC_SDA"
 		(at 74.93 85.09 180)
 		(effects
@@ -13973,8 +14092,8 @@
 		)
 		(uuid "cefcec43-1254-47b0-b7a1-103fc20a2c77")
 	)
-	(label "ADV7611_Y5"
-		(at 321.31 346.71 180)
+	(label "ADV7611_Y5_RP2350"
+		(at 326.39 346.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14207,6 +14326,30 @@
 			)
 		)
 	)
+	(global_label "I2S_ADV7611_SCLK"
+		(shape output)
+		(at 295.91 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b23ffe4-47a6-4b37-9101-68493a044404")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.917 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MAC_VSYNC_3V3_RP2350"
 		(shape output)
 		(at 128.27 304.8 0)
@@ -14351,9 +14494,9 @@
 			)
 		)
 	)
-	(global_label "I2S_ADV7611_SCLK"
+	(global_label "I2S_ADV7611_DOUT"
 		(shape output)
-		(at 214.63 133.35 0)
+		(at 295.91 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14361,9 +14504,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6236c425-7913-4dc6-b5ac-261ad9d87449")
+		(uuid "61037fb8-49d4-4d92-9908-bb7f342ac914")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.637 133.35 0)
+			(at 317.038 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14471,30 +14614,6 @@
 			)
 		)
 	)
-	(global_label "I2S_ADV7611_DOUT"
-		(shape output)
-		(at 214.63 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9af8b866-184f-4c58-a509-d4b6e10ad31f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.758 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MAC_VIDOUT_3V3_RP2350"
 		(shape output)
 		(at 386.08 378.46 0)
@@ -14567,30 +14686,6 @@
 			)
 		)
 	)
-	(global_label "I2S_ADV7611_LRCLK"
-		(shape output)
-		(at 214.63 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bcef8e83-a87f-4a72-a507-ba289ba04da7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.7256 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ADV7611_DVDDIO_3V3"
 		(shape input)
 		(at 77.47 143.51 180)
@@ -14612,6 +14707,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_ADV7611_LRCLK"
+		(shape output)
+		(at 295.91 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccebbf4b-b6ee-4345-90c2-8d61e4358c83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 318.0056 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15287,7 +15406,7 @@
 		(dnp no)
 		(uuid "0891bfc5-39ca-409c-8c00-740c2a0acae9")
 		(property "Reference" "D5"
-			(at 201.93 279.7176 90)
+			(at 201.676 275.082 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15297,7 +15416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 198.374 277.368 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,6 +15471,28 @@
 				)
 			)
 		)
+		(property "MPN" "LG R971-KN-1-0-20-R18"
+			(at 204.47 276.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 204.47 276.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a70109d9-5b94-413b-adb4-c55ab420dc10")
 		)
@@ -15362,85 +15503,6 @@
 			(project "mac-vintage-hdmi"
 				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mac-vintage-hdmi:AOTA-B201610S3R3-101-T")
-		(at 106.68 248.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0a3b453c-d047-461f-888c-447d2343b4a9")
-		(property "Reference" "L2"
-			(at 106.68 244.856 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AOTA-B201610S3R3-101-T"
-			(at 96.266 246.888 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mac-vintage-hdmi:L_Abracon_AOTA-B201610S3R3-101-T_2.0x1.6mm"
-			(at 106.68 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
-			(at 106.68 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3.3uH ±20% shielded molded power inductor, 2.0x1.6x1.0mm, DCR 140mΩ max, Isat 2.4A min, Irms 2.1A min. Polarity-marked custom part for the RP235x core regulator (RP2350 datasheet §6.3.8). Pin 1 = white polarity dot: connect pin 1 to VOUT/DVDD (COUT and VREG_FB side) and pin 2 to VREG_LX, per RP2350 datasheet Figs. 25, 26 and 28"
-			(at 106.68 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b71ac41-7939-4606-bc6b-8ec4940e5b04")
-		)
-		(pin "2"
-			(uuid "678dbb3c-42ec-4563-9ac1-c8eac08ef21f")
-		)
-		(instances
-			(project "mac-vintage-hdmi"
-				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -17161,7 +17223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "mac-vintage-hdmi:generic_capc1005x50_wide"
 			(at 125.4252 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -17707,7 +17769,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 210.82 350.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18267,7 +18329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 61.214 252.984 90)
 			(hide yes)
 			(show_name no)
@@ -19270,6 +19332,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 285.75 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5275d541-ff96-4a8c-8f68-150227215701")
+		(property "Reference" "R45"
+			(at 281.178 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 289.306 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 286.004 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 285.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb6f2ff3-093e-4660-a51a-9ddfdb82fef9")
+		)
+		(pin "1"
+			(uuid "804ad168-56f5-4813-9dc8-8220e1dd5322")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mac-vintage-hdmi:RCLAMP0524PA")
 		(at 88.9 68.58 0)
 		(unit 1)
@@ -20179,7 +20320,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 196.85 307.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20475,6 +20616,85 @@
 			(project "mac-vintage-hdmi"
 				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 285.75 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a644576-5d5f-4535-968b-2a3459127c85")
+		(property "Reference" "R46"
+			(at 281.178 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 289.306 147.066 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 286.004 147.574 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 285.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c74ed577-f359-4a0b-b4a4-fe7ab21b5b07")
+		)
+		(pin "1"
+			(uuid "3585f7df-0815-4b1c-b780-045d88a87f0f")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -21247,7 +21467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "mac-vintage-hdmi:generic_capc1005x50_wide"
 			(at 119.0752 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -21367,6 +21587,85 @@
 			(project "mac-vintage-hdmi"
 				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 285.75 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80869052-b85c-4385-828d-200bc33f9c77")
+		(property "Reference" "R47"
+			(at 281.178 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 289.306 152.146 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 286.004 152.654 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 285.75 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "37b27a3f-6281-4945-bfab-484282172dc4")
+		)
+		(pin "1"
+			(uuid "503eb15c-30f8-410f-90df-59e2e595a2e9")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -21785,6 +22084,85 @@
 			(project "mac-vintage-hdmi"
 				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mac-vintage-hdmi:AOTA-B201610S3R3-101-T")
+		(at 106.68 248.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8cd88830-ac52-405c-afc5-c843cdea6a43")
+		(property "Reference" "L2"
+			(at 106.68 244.602 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AOTA-B201610S3R3-101-T"
+			(at 99.06 246.634 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mac-vintage-hdmi:L_Abracon_AOTA-B201610S3R3-101-T_2.0x1.6mm"
+			(at 106.68 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
+			(at 106.68 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.3uH ±20% shielded molded power inductor, 2.0x1.6x1.0mm, DCR 140mΩ max, Isat 2.4A min, Irms 2.1A min. Polarity-marked custom part for the RP235x core regulator (RP2350 datasheet §6.3.8). Pin 1 = white polarity dot: connect pin 1 to VOUT/DVDD (COUT and VREG_FB side) and pin 2 to VREG_LX, per RP2350 datasheet Figs. 25, 26 and 28"
+			(at 106.68 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29e3612d-7520-41b8-af4c-69f0deb68ed5")
+		)
+		(pin "2"
+			(uuid "59e61e1f-fc95-4fcc-a670-ce5a093f28f9")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/05ea0ec1-beac-48db-ac0f-53255a4cab75"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -22583,7 +22961,7 @@
 		(dnp no)
 		(uuid "a5dc94df-7713-49a5-a031-b402fa4bcf1e")
 		(property "Reference" "D10"
-			(at 341.63 278.4476 90)
+			(at 341.884 274.066 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22593,8 +22971,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 345.44 276.352 90)
+		(property "Value" "Green"
+			(at 347.218 276.352 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22639,6 +23017,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 339.09 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LG R971-KN-1-0-20-R18"
+			(at 339.09 275.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 339.09 275.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23253,7 +23653,7 @@
 		(dnp no)
 		(uuid "ad4bc49f-198f-4177-8517-6b8e1bff116d")
 		(property "Reference" "D4"
-			(at 219.71 322.8976 90)
+			(at 219.964 318.516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23263,7 +23663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 219.71 320.3576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23309,6 +23709,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 217.17 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LG R971-KN-1-0-20-R18"
+			(at 217.17 320.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23504,7 +23915,7 @@
 		(dnp no)
 		(uuid "addfaef8-b56f-4c12-ada2-5156ffe8d5ba")
 		(property "Reference" "D6"
-			(at 224.79 267.0176 90)
+			(at 224.536 262.382 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23514,8 +23925,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 228.092 264.414 90)
+		(property "Value" "Green"
+			(at 229.616 264.668 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23560,6 +23971,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 222.25 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LG R971-KN-1-0-20-R18"
+			(at 222.25 264.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24753,7 +25175,7 @@
 		(dnp no)
 		(uuid "d7a8fa00-87ea-4885-825d-0c992a42de08")
 		(property "Reference" "D11"
-			(at 396.24 280.9876 90)
+			(at 395.986 276.606 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24763,8 +25185,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 400.05 278.892 90)
+		(property "Value" "Green"
+			(at 401.574 278.638 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24809,6 +25231,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 393.7 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LG R971-KN-1-0-20-R18"
+			(at 393.7 278.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 393.7 278.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

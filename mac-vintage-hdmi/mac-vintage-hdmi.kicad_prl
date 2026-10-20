@@ -51,7 +51,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_00000000_00000055",
+    "visible_layers": "00000000_00000000_00000008_82002277",
     "zone_display_mode": 1
   },
   "git": {
@@ -105,13 +105,13 @@
       103,
       103,
       103,
-      456
+      411
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "",
+    "filter_text": "dvdd",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_time_domain_details": false,

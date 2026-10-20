@@ -5059,7 +5059,7 @@
 	)
 	(text "AD7611 3.3V"
 		(exclude_from_sim no)
-		(at 176.276 96.774 0)
+		(at 163.068 96.012 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5069,7 +5069,7 @@
 	)
 	(text "RP2350 3.3V"
 		(exclude_from_sim no)
-		(at 177.292 51.054 0)
+		(at 184.912 44.704 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5079,7 +5079,7 @@
 	)
 	(text "DVDDIO: max 179mA, typ 13mA\nTVDD: max 58 mA, typ 51mA\nTotal: max 237mA, typ 64mA"
 		(exclude_from_sim no)
-		(at 161.544 102.616 0)
+		(at 148.336 101.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5121,7 +5121,7 @@
 	)
 	(text "AD7611 1.8V"
 		(exclude_from_sim no)
-		(at 221.996 90.932 0)
+		(at 251.714 87.884 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5154,7 +5154,7 @@
 	)
 	(text "PVDD: max 37mA, typ 31mA\nDVDD: max 189mA, typ 96mA\nCVDD: max 115 mA, typ 96mA\nTotal: max 341mA, typ 223mA"
 		(exclude_from_sim no)
-		(at 208.026 99.06 0)
+		(at 237.744 96.012 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5251,7 +5251,7 @@
 		(uuid "02a11147-e604-480e-89cd-850319a67920")
 	)
 	(junction
-		(at 273.05 107.95)
+		(at 273.05 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "040e8c96-e961-419c-8fad-29a76e0c9e9d")
@@ -5287,16 +5287,16 @@
 		(uuid "083a3fab-ecc7-4f80-ba10-aee70f1ad14f")
 	)
 	(junction
-		(at 193.04 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09d1f43c-b24c-4fa5-99eb-f2c781bd2138")
-	)
-	(junction
 		(at 172.72 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ab68f67-af9f-449c-9ec0-33c7d901956f")
+	)
+	(junction
+		(at 101.6 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f518ae-5d62-4ea2-8713-e59862096b43")
 	)
 	(junction
 		(at 388.62 222.25)
@@ -5317,6 +5317,12 @@
 		(uuid "1dc794ac-0385-43d3-873a-d82b2fddbb37")
 	)
 	(junction
+		(at 288.29 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "208a1c81-2b45-49a8-acb5-33a5fd73ddb7")
+	)
+	(junction
 		(at 464.82 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5327,6 +5333,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "215ed437-4173-4408-be41-edb83c198383")
+	)
+	(junction
+		(at 289.56 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "251520f6-e2fe-4f5a-b7aa-90ca76625c1b")
 	)
 	(junction
 		(at 83.82 198.12)
@@ -5461,10 +5473,22 @@
 		(uuid "502e288f-9ea8-4012-b5bc-1ac570423aa0")
 	)
 	(junction
+		(at 210.82 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50300cf7-312a-4cd8-a471-a7a0bb5e91d9")
+	)
+	(junction
 		(at 382.27 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5257871a-95d6-4e3b-aa50-f9b9d0d57eaa")
+	)
+	(junction
+		(at 288.29 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53e55372-8838-4b94-8868-2f03db3dc0a1")
 	)
 	(junction
 		(at 172.72 344.17)
@@ -5605,6 +5629,12 @@
 		(uuid "87a766de-fc30-47d1-b7af-c377d02bbab8")
 	)
 	(junction
+		(at 87.63 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8afc40a7-18e0-4de5-a47f-d57c98acd741")
+	)
+	(junction
 		(at 339.09 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5665,6 +5695,12 @@
 		(uuid "9903a2a3-bfc3-471f-93f2-265acd500b7e")
 	)
 	(junction
+		(at 193.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "995bd9d3-ac4d-44c3-ac49-017c42e93472")
+	)
+	(junction
 		(at 471.17 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5701,6 +5737,12 @@
 		(uuid "a254a2be-4fbb-49cf-9fbf-50f7505290cd")
 	)
 	(junction
+		(at 105.41 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3871378-c89d-496e-9df3-c479667d2589")
+	)
+	(junction
 		(at 372.11 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5723,6 +5765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acfb0ce7-aaa9-4372-964b-4a3363f7e504")
+	)
+	(junction
+		(at 209.55 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae0b6b37-9cc2-4f9d-b3cc-a43b7bf20366")
 	)
 	(junction
 		(at 209.55 248.92)
@@ -5749,7 +5797,7 @@
 		(uuid "b1a5d72e-e056-4cfd-bc88-d4a7c31c42be")
 	)
 	(junction
-		(at 161.29 63.5)
+		(at 168.91 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b25a9f23-0a6c-423c-8592-c1c793fd569c")
@@ -5759,6 +5807,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2faad6b-2ac1-4e0d-bee8-42cc350dc397")
+	)
+	(junction
+		(at 101.6 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b498a0ca-429e-4d28-a623-75de35c9165c")
 	)
 	(junction
 		(at 515.62 137.16)
@@ -5803,6 +5857,12 @@
 		(uuid "c6a24243-9e37-455c-91d3-e7308f7bdda9")
 	)
 	(junction
+		(at 87.63 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c93cd786-60db-4b53-9f81-a81bbff81b00")
+	)
+	(junction
 		(at 462.28 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5821,7 +5881,7 @@
 		(uuid "cf2721c1-f59e-4333-99bd-4274e2f2c589")
 	)
 	(junction
-		(at 194.31 63.5)
+		(at 201.93 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d12190f7-7e07-435f-bc0d-98b439381818")
@@ -5911,6 +5971,12 @@
 		(uuid "eccfd1e3-df73-466d-a782-df10f16bdcc5")
 	)
 	(junction
+		(at 83.82 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee3e2d67-8e33-4767-820b-f7b550b986d5")
+	)
+	(junction
 		(at 146.05 372.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5946,7 +6012,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 107.95) (xy 279.4 107.95)
+			(xy 273.05 96.52) (xy 279.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6046,6 +6112,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 207.01) (xy 105.41 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f6a695-1978-4427-bb18-ddc8cc9d4b99")
+	)
+	(wire
+		(pts
 			(xy 193.04 119.38) (xy 223.52 119.38)
 		)
 		(stroke
@@ -6053,16 +6129,6 @@
 			(type default)
 		)
 		(uuid "08b08b95-b892-4958-aabd-ba74fe57398b")
-	)
-	(wire
-		(pts
-			(xy 193.04 113.03) (xy 193.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09027ff5-c6b8-4725-bbda-04f35041a590")
 	)
 	(wire
 		(pts
@@ -6236,6 +6302,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 217.17) (xy 105.41 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bb3575-5445-49e3-920e-81659e71a9df")
+	)
+	(wire
+		(pts
 			(xy 360.68 189.23) (xy 372.11 189.23)
 		)
 		(stroke
@@ -6306,7 +6382,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 73.66) (xy 194.31 74.93)
+			(xy 201.93 67.31) (xy 201.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6326,7 +6402,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 97.79) (xy 273.05 119.38)
+			(xy 273.05 72.39) (xy 273.05 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6363,6 +6439,16 @@
 			(type default)
 		)
 		(uuid "17ecd2e8-5180-4bfd-b864-48435be2b037")
+	)
+	(wire
+		(pts
+			(xy 209.55 104.14) (xy 209.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180e1b3d-5737-4b51-bf16-1bb17f66ea7f")
 	)
 	(wire
 		(pts
@@ -6436,7 +6522,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 63.5) (xy 170.18 63.5)
+			(xy 168.91 57.15) (xy 177.8 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6596,6 +6682,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 72.39) (xy 290.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22566871-42db-4eb2-acf5-43bc0624f49a")
+	)
+	(wire
+		(pts
 			(xy 189.23 394.97) (xy 189.23 397.51)
 		)
 		(stroke
@@ -6666,6 +6762,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 104.14) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270afab0-2ec5-4442-9bb9-f4c3bce89984")
+	)
+	(wire
+		(pts
 			(xy 464.82 82.55) (xy 471.17 82.55)
 		)
 		(stroke
@@ -6683,6 +6789,16 @@
 			(type default)
 		)
 		(uuid "2891aabd-eb82-4fac-af02-c373b4415a1b")
+	)
+	(wire
+		(pts
+			(xy 288.29 96.52) (xy 289.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298a1b42-fda2-4003-9eb3-a3ab4e37622f")
 	)
 	(wire
 		(pts
@@ -7066,16 +7182,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 115.57) (xy 193.04 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bbfbd0d-9009-49a2-b643-110bfa6dba04")
-	)
-	(wire
-		(pts
 			(xy 229.87 224.79) (xy 217.17 224.79)
 		)
 		(stroke
@@ -7233,6 +7339,16 @@
 			(type default)
 		)
 		(uuid "430ac9cb-b6a1-41f2-acc3-3cf177628d04")
+	)
+	(wire
+		(pts
+			(xy 193.04 104.14) (xy 200.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433b3c14-ebfa-41ca-8ae0-74422a908154")
 	)
 	(wire
 		(pts
@@ -7526,16 +7642,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 113.03) (xy 195.58 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fb117cb-ac6b-4182-953e-e957d90fa4f5")
-	)
-	(wire
-		(pts
 			(xy 496.57 118.11) (xy 515.62 118.11)
 		)
 		(stroke
@@ -7566,7 +7672,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 161.29 74.93)
+			(xy 168.91 67.31) (xy 168.91 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7656,7 +7762,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 158.75 63.5)
+			(xy 166.37 55.88) (xy 166.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7726,6 +7832,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 217.17) (xy 87.63 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a310fb5-31b9-4acc-acbb-8ac0d6a85d72")
+	)
+	(wire
+		(pts
 			(xy 494.03 57.15) (xy 496.57 57.15)
 		)
 		(stroke
@@ -7733,6 +7849,16 @@
 			(type default)
 		)
 		(uuid "5a97f171-cc57-408e-8a7e-ae132ecdaa91")
+	)
+	(wire
+		(pts
+			(xy 288.29 130.81) (xy 288.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c716bcb-8ce2-4c15-93a9-e100d87a1631")
 	)
 	(wire
 		(pts
@@ -7773,6 +7899,16 @@
 			(type default)
 		)
 		(uuid "5f4f30aa-8219-43ca-b5ce-8454da9a5784")
+	)
+	(wire
+		(pts
+			(xy 289.56 81.28) (xy 289.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcf6ed8-16fc-43fe-a339-6eaeeb49ff14")
 	)
 	(wire
 		(pts
@@ -7826,6 +7962,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 217.17) (xy 83.82 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63909174-cf42-4438-a2b2-11ef41e5756f")
+	)
+	(wire
+		(pts
 			(xy 157.48 119.38) (xy 154.94 119.38)
 		)
 		(stroke
@@ -7843,6 +7989,16 @@
 			(type default)
 		)
 		(uuid "64740cc2-2d88-4bbb-a74e-e581c2faad78")
+	)
+	(wire
+		(pts
+			(xy 101.6 217.17) (xy 101.6 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654aefff-3448-427d-9d83-e5e82a2d1591")
 	)
 	(wire
 		(pts
@@ -7866,7 +8022,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 66.04) (xy 161.29 63.5)
+			(xy 210.82 82.55) (xy 210.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f31122-138c-4d92-9e76-00e267f982fa")
+	)
+	(wire
+		(pts
+			(xy 168.91 59.69) (xy 168.91 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8016,7 +8182,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 63.5) (xy 194.31 66.04)
+			(xy 201.93 57.15) (xy 201.93 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8056,7 +8222,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 63.5) (xy 194.31 63.5)
+			(xy 193.04 57.15) (xy 201.93 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8196,6 +8362,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 207.01) (xy 101.6 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78580c65-bef6-4e5d-a9d1-736bdd8e136a")
+	)
+	(wire
+		(pts
 			(xy 209.55 232.41) (xy 209.55 259.08)
 		)
 		(stroke
@@ -8206,7 +8382,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 97.79) (xy 279.4 97.79)
+			(xy 273.05 72.39) (xy 280.67 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8223,16 +8399,6 @@
 			(type default)
 		)
 		(uuid "78cbe16d-f160-4a9f-b48e-d8768e40d7f1")
-	)
-	(wire
-		(pts
-			(xy 83.82 214.63) (xy 83.82 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e82a52-047d-4e77-9270-03303d329bac")
 	)
 	(wire
 		(pts
@@ -8333,6 +8499,16 @@
 			(type default)
 		)
 		(uuid "7f728764-9348-4919-b9ad-f2cfab37bf3b")
+	)
+	(wire
+		(pts
+			(xy 210.82 90.17) (xy 210.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd4fda3-2a57-4e9a-bb01-c2167adc381a")
 	)
 	(wire
 		(pts
@@ -8443,6 +8619,16 @@
 			(type default)
 		)
 		(uuid "852de64a-db82-4991-a0fa-286d64c14f2d")
+	)
+	(wire
+		(pts
+			(xy 105.41 217.17) (xy 107.95 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868733fd-824e-4ffb-9a71-71b0473f02d5")
 	)
 	(wire
 		(pts
@@ -8776,13 +8962,23 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 119.38) (xy 289.56 119.38)
+			(xy 287.02 119.38) (xy 288.29 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "971cd2cf-49f1-45a3-87a3-3eb7429c7f26")
+	)
+	(wire
+		(pts
+			(xy 87.63 217.17) (xy 83.82 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e2b5d0-1fec-4f9a-871f-4bf6ab099673")
 	)
 	(wire
 		(pts
@@ -8876,6 +9072,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 113.03) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9d4d57-d3e5-4432-a3a2-6e11902c92b7")
+	)
+	(wire
+		(pts
 			(xy 82.55 372.11) (xy 82.55 388.62)
 		)
 		(stroke
@@ -8886,6 +9092,26 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 119.38) (xy 289.56 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e998625-5e2d-47c7-a208-b189666d774a")
+	)
+	(wire
+		(pts
+			(xy 107.95 218.44) (xy 107.95 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f237a9f-e092-4df1-8a0e-9f06ab4852fb")
+	)
+	(wire
+		(pts
 			(xy 50.8 354.33) (xy 50.8 355.6)
 		)
 		(stroke
@@ -8893,6 +9119,16 @@
 			(type default)
 		)
 		(uuid "9f50452b-ac6f-4f33-98cb-6ac6f95867e6")
+	)
+	(wire
+		(pts
+			(xy 210.82 81.28) (xy 224.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8fbeb4-1216-481e-97be-c526d2af19e1")
 	)
 	(wire
 		(pts
@@ -8923,6 +9159,26 @@
 			(type default)
 		)
 		(uuid "a04e05dd-3524-48de-8de7-4168681230f4")
+	)
+	(wire
+		(pts
+			(xy 105.41 208.28) (xy 105.41 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f536ec-4350-474a-a5f2-873183f01ff6")
+	)
+	(wire
+		(pts
+			(xy 105.41 217.17) (xy 101.6 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a168d187-4309-4311-859b-b701a995a6bc")
 	)
 	(wire
 		(pts
@@ -8966,7 +9222,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 63.5) (xy 158.75 63.5)
+			(xy 168.91 57.15) (xy 166.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8996,7 +9252,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 71.12) (xy 177.8 74.93)
+			(xy 193.04 81.28) (xy 193.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b7cc7c-d2e6-4019-8314-6effcd810813")
+	)
+	(wire
+		(pts
+			(xy 185.42 64.77) (xy 185.42 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9053,6 +9319,16 @@
 			(type default)
 		)
 		(uuid "a939d661-dab1-4175-bad5-d6851320afdd")
+	)
+	(wire
+		(pts
+			(xy 288.29 119.38) (xy 288.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a972c873-c346-421e-8434-b56d2a3621cf")
 	)
 	(wire
 		(pts
@@ -9496,6 +9772,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 72.39) (xy 289.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3538db8-13b9-4406-b73b-526e45658f27")
+	)
+	(wire
+		(pts
 			(xy 121.92 379.73) (xy 121.92 381)
 		)
 		(stroke
@@ -9726,6 +10012,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 207.01) (xy 101.6 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2eaf930-6602-428e-b093-6d32d4dacb8f")
+	)
+	(wire
+		(pts
 			(xy 339.09 212.09) (xy 339.09 213.36)
 		)
 		(stroke
@@ -9783,6 +10079,16 @@
 			(type default)
 		)
 		(uuid "d517836d-7687-4caf-a1cf-2025f9cccdc6")
+	)
+	(wire
+		(pts
+			(xy 87.63 217.17) (xy 87.63 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d728f60e-d7ab-44e8-93a6-646e1583d076")
 	)
 	(wire
 		(pts
@@ -10016,6 +10322,26 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 106.68) (xy 288.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff79781-61f2-45cf-9dd4-ec1b8cb8c047")
+	)
+	(wire
+		(pts
+			(xy 210.82 81.28) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00c3993-a9a6-4266-8e44-461543fe25fa")
+	)
+	(wire
+		(pts
 			(xy 464.82 91.44) (xy 464.82 92.71)
 		)
 		(stroke
@@ -10033,6 +10359,16 @@
 			(type default)
 		)
 		(uuid "e05608ff-46d7-4291-9d4d-4c70f6a7159d")
+	)
+	(wire
+		(pts
+			(xy 83.82 207.01) (xy 87.63 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f9a2a1-7dcb-4085-8483-daa5dc12e357")
 	)
 	(wire
 		(pts
@@ -10076,7 +10412,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 115.57) (xy 195.58 115.57)
+			(xy 193.04 81.28) (xy 201.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10176,7 +10512,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 107.95) (xy 289.56 107.95)
+			(xy 287.02 96.52) (xy 288.29 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10203,6 +10539,16 @@
 			(type default)
 		)
 		(uuid "edcd0da3-21d2-481d-b9d0-fed5a09897eb")
+	)
+	(wire
+		(pts
+			(xy 87.63 207.01) (xy 87.63 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed8e951-2040-4e53-835b-831a4fd4054c")
 	)
 	(wire
 		(pts
@@ -10306,13 +10652,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 63.5) (xy 196.85 63.5)
+			(xy 201.93 57.15) (xy 204.47 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3e6e61a-b6f7-4268-a3cc-415a707942cf")
+	)
+	(wire
+		(pts
+			(xy 288.29 96.52) (xy 288.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f4ca3d-3ad2-4ef5-aab2-c14951c5b6c8")
 	)
 	(wire
 		(pts
@@ -10343,6 +10699,16 @@
 			(type default)
 		)
 		(uuid "f59f9e55-dbde-423d-9a4b-e04a42e2908b")
+	)
+	(wire
+		(pts
+			(xy 209.55 104.14) (xy 213.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d10668-3969-4f9c-89af-282c7780e2c4")
 	)
 	(wire
 		(pts
@@ -10406,7 +10772,17 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 97.79) (xy 289.56 97.79)
+			(xy 83.82 207.01) (xy 83.82 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb413eaa-92f9-4a26-acd7-98464174ef07")
+	)
+	(wire
+		(pts
+			(xy 288.29 72.39) (xy 289.56 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10426,7 +10802,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 62.23) (xy 196.85 63.5)
+			(xy 204.47 55.88) (xy 204.47 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10734,6 +11110,16 @@
 		)
 		(uuid "eae690e1-0170-4b13-a761-f46fa8b40728")
 	)
+	(label "+3V3_ADV7611"
+		(at 209.55 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edbee85e-c72f-468c-b156-e4eea4fb0e5b")
+	)
 	(label "USB2_SBU2"
 		(at 77.47 264.16 0)
 		(effects
@@ -10862,7 +11248,7 @@
 	)
 	(global_label "ADV7611_DVDDIO_3V3"
 		(shape output)
-		(at 195.58 113.03 0)
+		(at 213.36 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10872,7 +11258,7 @@
 		)
 		(uuid "438a8df8-9ced-4b77-942e-7246ab752a03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.0329 113.03 0)
+			(at 189.8129 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10886,7 +11272,7 @@
 	)
 	(global_label "ADV7611_TVDD_3V3"
 		(shape output)
-		(at 195.58 115.57 0)
+		(at 224.79 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10896,7 +11282,7 @@
 		)
 		(uuid "6d725c8a-e675-403f-8f18-9fb3de7b4168")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2706 115.57 0)
+			(at 203.4806 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10982,7 +11368,7 @@
 	)
 	(global_label "ADV7611_PVDD_1V8"
 		(shape output)
-		(at 289.56 97.79 0)
+		(at 290.83 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10992,7 +11378,7 @@
 		)
 		(uuid "a61e5a33-8423-4986-b3b3-01016216d327")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9482 97.79 0)
+			(at 269.2182 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11006,7 +11392,7 @@
 	)
 	(global_label "ADV7611_DVDD_1V8"
 		(shape output)
-		(at 289.56 107.95 0)
+		(at 289.56 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11016,7 +11402,7 @@
 		)
 		(uuid "a71d82bc-be16-4a66-bcb0-095fa2c86e89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9482 107.95 0)
+			(at 267.9482 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11477,6 +11863,89 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 288.29 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00c1ab3a-8d26-4cd0-9a15-48ca03e763c5")
+		(property "Reference" "C54"
+			(at 292.1 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 292.1 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 287.3248 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 288.29 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4acaf3be-3d89-43f0-b028-011e2c3d7048")
+		)
+		(pin "2"
+			(uuid "d8243fa8-abde-433b-acb6-497771ada097")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 360.68 194.31 0)
 		(unit 1)
 		(body_style 1)
@@ -11880,7 +12349,7 @@
 	)
 	(symbol
 		(lib_id "mac-vintage-hdmi:BLM18KG601SN1D")
-		(at 283.21 107.95 90)
+		(at 283.21 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11890,7 +12359,7 @@
 		(dnp no)
 		(uuid "05618581-8ecc-4454-b24a-03641e61f3eb")
 		(property "Reference" "FB2"
-			(at 283.21 102.108 90)
+			(at 283.21 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11900,7 +12369,7 @@
 			)
 		)
 		(property "Value" "BLM18KG601SN1D"
-			(at 283.718 104.14 90)
+			(at 283.718 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11910,7 +12379,7 @@
 			)
 		)
 		(property "Footprint" "mac-vintage-hdmi:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 283.21 109.728 90)
+			(at 283.21 98.298 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11921,7 +12390,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM18KG601SN1%23"
-			(at 283.21 107.95 0)
+			(at 283.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11932,7 +12401,7 @@
 			)
 		)
 		(property "Description" "Murata BLM18KG601SN1D chip ferrite bead for power lines, 0603 (1.6x0.8x0.8mm), 600Ω ±25% at 100MHz, 1.3A rated (85°C; 1A at 125°C), DCR 0.15Ω max, -55 to 125°C, LCSC C85833"
-			(at 283.21 107.95 0)
+			(at 283.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11959,7 +12428,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 161.29 69.85 0)
+		(at 168.91 63.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11971,7 +12440,7 @@
 		(fields_autoplaced yes)
 		(uuid "075a7a45-5777-48eb-8d33-d3ed2da48089")
 		(property "Reference" "C51"
-			(at 165.1 68.5799 0)
+			(at 172.72 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11982,7 +12451,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 165.1 71.1199 0)
+			(at 172.72 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11993,7 +12462,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 160.3248 73.66 0)
+			(at 167.9448 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 69.85 0)
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12015,7 +12484,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 69.85 0)
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12124,7 +12593,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
-		(at 177.8 63.5 0)
+		(at 185.42 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12134,7 +12603,7 @@
 		(dnp no)
 		(uuid "0798c6d3-5ad0-44ed-8543-38625554a1f6")
 		(property "Reference" "U4"
-			(at 177.8 57.15 0)
+			(at 185.42 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12144,7 +12613,7 @@
 			)
 		)
 		(property "Value" "NCP1117-3.3_SOT223"
-			(at 177.8 59.69 0)
+			(at 185.42 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12154,7 +12623,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 177.8 58.42 0)
+			(at 185.42 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12165,7 +12634,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 180.34 69.85 0)
+			(at 187.96 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12176,7 +12645,7 @@
 			)
 		)
 		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
-			(at 177.8 63.5 0)
+			(at 185.42 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13015,9 +13484,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 327.66 66.04 270)
-		(mirror x)
+		(lib_id "mac-vintage-hdmi:BLM18KG601SN1D")
+		(at 204.47 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13025,31 +13493,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1a385bee-a460-4bed-a0c5-46341e7cd862")
-		(property "Reference" "D1"
-			(at 330.2 68.8976 90)
+		(uuid "19f8fe31-d343-41bc-91e5-812e5dfacfe7")
+		(property "Reference" "FB4"
+			(at 204.47 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 330.2 66.3576 90)
+		(property "Value" "BLM18KG601SN1D"
+			(at 204.978 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 327.66 66.04 0)
+		(property "Footprint" "mac-vintage-hdmi:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 204.47 105.918 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13059,8 +13525,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 327.66 66.04 0)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM18KG601SN1%23"
+			(at 204.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13070,19 +13536,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 327.66 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 327.66 66.04 0)
+		(property "Description" "Murata BLM18KG601SN1D chip ferrite bead for power lines, 0603 (1.6x0.8x0.8mm), 600Ω ±25% at 100MHz, 1.3A rated (85°C; 1A at 125°C), DCR 0.15Ω max, -55 to 125°C, LCSC C85833"
+			(at 204.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13093,15 +13548,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "35dc0d01-fc9f-4544-876f-d2f2bfe199d8")
+			(uuid "ec8f33c2-0448-42ff-ba44-029e23f6cda4")
 		)
 		(pin "2"
-			(uuid "ef1f61c3-bffc-4fc0-9abd-74cfb7432545")
+			(uuid "6074f8c7-3cb4-4045-baad-c80d0ed7b22a")
 		)
 		(instances
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
-					(reference "D1")
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ad0ff40-5ee9-4c5c-84f4-6016a78888c4")
+		(property "Reference" "#PWR081"
+			(at 288.29 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efc66fe1-2d5e-4364-9057-57d4b741d688")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -13266,6 +13799,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 210.82 86.36 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b9797ab-392d-46e9-8dbf-3fe1360edeb6")
+		(property "Reference" "C58"
+			(at 214.63 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 214.63 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 209.8548 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e813a134-3878-4436-803e-85e82c46bf06")
+		)
+		(pin "2"
+			(uuid "d390b67e-8df8-4992-bd52-a09927e86e91")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 82.55 233.68 0)
 		(unit 1)
@@ -13415,6 +14031,84 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e1d8503-0945-4f08-a4c2-8051c84ee7ea")
+		(property "Reference" "#PWR085"
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcdd699a-0842-414c-84ba-5f03dd8cc55f")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -13831,7 +14525,7 @@
 		(dnp no)
 		(uuid "24aec559-e3d1-4557-b815-603de0288ea7")
 		(property "Reference" "D16"
-			(at 363.22 131.1276 90)
+			(at 363.474 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13841,7 +14535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Yellow"
 			(at 363.22 128.5876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13887,6 +14581,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 360.68 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LY R976-PS-36-0-20-R18"
+			(at 360.68 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14953,6 +15658,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 105.41 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33d5f4d3-d293-403f-aded-ae65293cfce0")
+		(property "Reference" "R87"
+			(at 107.95 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 107.95 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 106.426 212.344 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 105.41 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e167c99f-2c50-45b0-9041-f78f3629b618")
+		)
+		(pin "1"
+			(uuid "986fc16b-a7b4-4a86-990d-5a25d77018f9")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 67.31 185.42 0)
 		(unit 1)
@@ -15516,7 +16302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 74.93 0)
+		(at 168.91 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15527,7 +16313,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dc18fa4-e6b6-4993-a3e7-3b85791033af")
 		(property "Reference" "#PWR018"
-			(at 161.29 81.28 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15538,7 +16324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 80.01 0)
+			(at 168.91 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15548,7 +16334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 74.93 0)
+			(at 168.91 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15559,7 +16345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 74.93 0)
+			(at 168.91 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15570,7 +16356,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 74.93 0)
+			(at 168.91 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15587,6 +16373,89 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e3b222e-4522-413d-93b0-f8ecccbab617")
+		(property "Reference" "C57"
+			(at 213.36 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 213.36 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 208.5848 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b80437d0-cb1b-435d-b0b9-b93b15c1c2bd")
+		)
+		(pin "2"
+			(uuid "72cf6cb9-7934-4c30-a139-dbb8c5832120")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -17073,7 +17942,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 215.9 0)
+		(at 107.95 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17084,7 +17953,7 @@
 		(fields_autoplaced yes)
 		(uuid "531dc509-7635-4eed-99db-ae08742893b0")
 		(property "Reference" "#PWR0121"
-			(at 83.82 222.25 0)
+			(at 107.95 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17095,7 +17964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 220.98 0)
+			(at 107.95 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17105,7 +17974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 215.9 0)
+			(at 107.95 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17116,7 +17985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 215.9 0)
+			(at 107.95 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17127,7 +17996,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 215.9 0)
+			(at 107.95 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17399,7 +18268,7 @@
 		(dnp no)
 		(uuid "58461bf8-1cfe-4575-95b9-ed5def8da971")
 		(property "Reference" "D15"
-			(at 391.16 131.1276 90)
+			(at 391.16 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17409,7 +18278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Yellow"
 			(at 391.16 128.5876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17455,6 +18324,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 388.62 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LY R976-PS-36-0-20-R18"
+			(at 388.62 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17713,7 +18593,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 74.93 0)
+		(at 185.42 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17724,7 +18604,7 @@
 		(fields_autoplaced yes)
 		(uuid "613bc4c6-1f6a-4845-8f17-42a71c5a0622")
 		(property "Reference" "#PWR012"
-			(at 177.8 81.28 0)
+			(at 185.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17735,7 +18615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 80.01 0)
+			(at 185.42 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17745,7 +18625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 74.93 0)
+			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17756,7 +18636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 74.93 0)
+			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17767,7 +18647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 74.93 0)
+			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18028,6 +18908,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 288.29 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62f93667-f5da-4df8-9607-ade951eeda64")
+		(property "Reference" "C55"
+			(at 292.1 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 292.1 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 287.3248 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 288.29 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6993d22b-5ea3-4c99-ac4a-41020a457652")
+		)
+		(pin "2"
+			(uuid "d874e951-e7ee-4d16-ba03-25408f0240ab")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 254 198.12 0)
 		(unit 1)
@@ -18255,6 +19218,85 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mac-vintage-hdmi:BLM18KG601SN1D")
+		(at 205.74 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e9c7b0e-8e69-4a3e-891f-be60e4e86545")
+		(property "Reference" "FB5"
+			(at 205.74 75.438 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM18KG601SN1D"
+			(at 206.248 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mac-vintage-hdmi:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 205.74 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM18KG601SN1%23"
+			(at 205.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Murata BLM18KG601SN1D chip ferrite bead for power lines, 0603 (1.6x0.8x0.8mm), 600Ω ±25% at 100MHz, 1.3A rated (85°C; 1A at 125°C), DCR 0.15Ω max, -55 to 125°C, LCSC C85833"
+			(at 205.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b835760-f6c4-462f-9df4-b8cc7c811e42")
+		)
+		(pin "2"
+			(uuid "3306107e-4679-4084-8422-7070b2ec3978")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -18888,6 +19930,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 101.6 212.09 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a58cbe1-54ed-4c7a-924e-68aeda67018b")
+		(property "Reference" "R86"
+			(at 99.06 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 99.06 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 100.584 212.344 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "87570d44-1edb-49a0-855b-eccf23680497")
+		)
+		(pin "1"
+			(uuid "b6696591-ec11-4a8f-a845-28e871b0c47c")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 96.52 63.5 0)
 		(unit 1)
@@ -18959,6 +20083,83 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cc8b1c1-2b62-4c0a-8e0d-fbb30f6de14a")
+		(property "Reference" "#PWR084"
+			(at 209.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "114a37b1-e4fe-420c-a07b-4e06d3c05292")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -19191,6 +20392,84 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d907a13-d682-4dd2-840c-017c53f3c722")
+		(property "Reference" "#PWR083"
+			(at 289.56 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.56 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a53a213-84b0-430b-92b8-e92446fd6b14")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -19607,7 +20886,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 196.85 62.23 0)
+		(at 204.47 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19617,7 +20896,7 @@
 		(dnp no)
 		(uuid "842028c2-b0ad-4adc-839f-16844f1e52c6")
 		(property "Reference" "#PWR022"
-			(at 196.85 66.04 0)
+			(at 204.47 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19628,7 +20907,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 196.342 58.42 0)
+			(at 203.962 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19638,7 +20917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 62.23 0)
+			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19649,7 +20928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 62.23 0)
+			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19660,7 +20939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 196.85 62.23 0)
+			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21139,7 +22418,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 83.82 210.82 0)
+		(at 83.82 212.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21150,7 +22429,7 @@
 		(dnp no)
 		(uuid "9bc1ba94-23f5-4b14-beaf-0198e5213005")
 		(property "Reference" "R76"
-			(at 81.28 209.5499 0)
+			(at 81.28 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21161,7 +22440,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 81.28 212.0899 0)
+			(at 81.28 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21172,7 +22451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 82.804 211.074 90)
+			(at 82.804 212.344 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21183,7 +22462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 210.82 0)
+			(at 83.82 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21194,7 +22473,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 83.82 210.82 0)
+			(at 83.82 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21771,6 +23050,87 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 87.63 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a294d134-d43e-4cbf-92b2-12b29de739e0")
+		(property "Reference" "R85"
+			(at 90.17 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 90.17 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 88.646 212.344 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 87.63 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "33c84af5-fdd8-4ea6-9169-1603edacbd43")
+		)
+		(pin "1"
+			(uuid "536a8c73-b6ee-444b-b365-cf1b248f99df")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -22561,99 +23921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 341.63 66.04 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b253f004-f904-4c43-bede-38148febd463")
-		(property "Reference" "D2"
-			(at 344.17 68.8976 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 344.17 66.3576 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 341.63 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 341.63 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 341.63 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "293bdc22-ef53-4242-8a2a-e4c374efd622")
-		)
-		(pin "2"
-			(uuid "e633da43-e92a-4d5f-a1ca-a195005ca742")
-		)
-		(instances
-			(project "mac-vintage-hdmi"
-				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 426.72 223.52 0)
 		(unit 1)
@@ -22726,6 +23993,89 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 289.56 77.47 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b75b8460-df5f-48be-9c3a-7a3b82e8d03f")
+		(property "Reference" "C56"
+			(at 293.37 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 293.37 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 288.5948 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 289.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75d2eff7-3536-4f50-8bc7-afa7eb6edb51")
+		)
+		(pin "2"
+			(uuid "5430ae00-326f-4911-88ee-99f4adb01e7f")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -23074,7 +24424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 388.62 67.6276 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23120,6 +24470,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 386.08 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LS R976-NR-1-0-20-R18"
+			(at 386.08 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23862,7 +25223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 74.93 0)
+		(at 201.93 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23873,7 +25234,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4ee27e6-9e46-4861-b4f3-39b8562c586a")
 		(property "Reference" "#PWR077"
-			(at 194.31 81.28 0)
+			(at 201.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23884,7 +25245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 80.01 0)
+			(at 201.93 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23894,7 +25255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 74.93 0)
+			(at 201.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23905,7 +25266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 74.93 0)
+			(at 201.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23916,7 +25277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 74.93 0)
+			(at 201.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24099,7 +25460,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 69.85 0)
+		(at 201.93 63.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24111,7 +25472,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8a76069-ea0a-47e3-b7a3-b6f475505a53")
 		(property "Reference" "C50"
-			(at 198.12 68.5799 0)
+			(at 205.74 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24122,7 +25483,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 198.12 71.1199 0)
+			(at 205.74 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24133,7 +25494,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 193.3448 73.66 0)
+			(at 200.9648 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24144,7 +25505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 69.85 0)
+			(at 201.93 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24155,7 +25516,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 69.85 0)
+			(at 201.93 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24257,6 +25618,84 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc547f28-7d8e-4a7c-ac08-6b5ab927bcb8")
+		(property "Reference" "#PWR082"
+			(at 288.29 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "845783bd-98c6-4fba-a30c-d013710ffcdb")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -24739,6 +26178,110 @@
 			(project "mac-vintage-hdmi"
 				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
 					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 327.66 66.04 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d503c89d-4a5b-4be7-8117-ca647407c006")
+		(property "Reference" "D14"
+			(at 330.454 65.2144 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 330.2 67.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 327.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 327.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 327.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LS R976-NR-1-0-20-R18"
+			(at 327.66 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2897800f-7fb9-4b7e-b11b-b6260759d9a5")
+		)
+		(pin "2"
+			(uuid "c62b3168-2a08-46f3-b29f-0c812724aefa")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -26087,8 +27630,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 62.23 0)
+		(lib_id "Device:LED")
+		(at 341.63 66.04 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26096,30 +27640,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ef6a6648-57f6-4454-8e46-906032e0ae71")
-		(property "Reference" "#PWR021"
-			(at 158.75 66.04 0)
-			(hide yes)
+		(uuid "ed8a6733-3434-424e-b41c-d9b3fb769130")
+		(property "Reference" "D13"
+			(at 344.17 65.278 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 158.242 58.42 0)
+		(property "Value" "Red"
+			(at 344.424 67.7544 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 62.23 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 341.63 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26130,7 +27675,109 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 62.23 0)
+			(at 341.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 341.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 341.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LS R976-NR-1-0-20-R18"
+			(at 341.63 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf5d36e4-8e6b-40ed-9a42-33538aef123d")
+		)
+		(pin "2"
+			(uuid "61c76f5e-fe4e-4c8e-a702-b7534249ba3d")
+		)
+		(instances
+			(project "mac-vintage-hdmi"
+				(path "/13e48c44-097d-4a9e-b5ad-c93c72414a8b"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef6a6648-57f6-4454-8e46-906032e0ae71")
+		(property "Reference" "#PWR021"
+			(at 166.37 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.862 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26141,7 +27788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 62.23 0)
+			(at 166.37 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26561,7 +28208,7 @@
 	)
 	(symbol
 		(lib_id "mac-vintage-hdmi:BLM18KG601SN1D")
-		(at 283.21 97.79 90)
+		(at 284.48 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26571,7 +28218,7 @@
 		(dnp no)
 		(uuid "f89d94d3-995f-4407-ad5c-f8ccceebb734")
 		(property "Reference" "FB1"
-			(at 283.21 91.948 90)
+			(at 284.48 66.548 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26581,7 +28228,7 @@
 			)
 		)
 		(property "Value" "BLM18KG601SN1D"
-			(at 283.718 93.98 90)
+			(at 284.988 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26591,7 +28238,7 @@
 			)
 		)
 		(property "Footprint" "mac-vintage-hdmi:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 283.21 99.568 90)
+			(at 284.48 74.168 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26602,7 +28249,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM18KG601SN1%23"
-			(at 283.21 97.79 0)
+			(at 284.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26613,7 +28260,7 @@
 			)
 		)
 		(property "Description" "Murata BLM18KG601SN1D chip ferrite bead for power lines, 0603 (1.6x0.8x0.8mm), 600Ω ±25% at 100MHz, 1.3A rated (85°C; 1A at 125°C), DCR 0.15Ω max, -55 to 125°C, LCSC C85833"
-			(at 283.21 97.79 0)
+			(at 284.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26984,7 +28631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PT8211-S"
+		(property "Value" "TM8211-TA2302"
 			(at 69.4533 361.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27006,7 +28653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/7727b839d35ab598f7be71011fce1b56.pdf?productCode=C5260468"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404171111_TM-Shenzhen-Titan-Micro-Elec-TM8211-TA2302_C22381766.pdf"
 			(at 67.31 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -27017,8 +28664,19 @@
 				)
 			)
 		)
-		(property "Description" "16-bit stereo audio DAC, LSB-justified (right-justified) serial input, two's complement MSB first, 3-6V, SOP-8 150mil, Princeton Technology (LCSC C92004); TM8211 / TDA1311 pin-compatible"
+		(property "Description" "16-bit stereo audio DAC, LSB-justified (right-justified) serial input, two's complement MSB first, 3-8V, SOP-8 150mil, Titan Micro TM8211-TA2302 (LCSC C22381766); PT8211 / TDA1311 pin-compatible"
 			(at 67.31 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22381766"
+			(at 67.31 392.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

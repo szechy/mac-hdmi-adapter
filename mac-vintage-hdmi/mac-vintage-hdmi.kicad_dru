@@ -150,3 +150,7 @@
     (condition "A.inDiffPair('*USB2_D*') && (A.intersectsCourtyard('J2') || A.intersectsCourtyard('U3'))")
     (constraint track_width (min 0.127mm) (opt 0.15mm))
     (constraint diff_pair_gap (min 0.127mm) (opt 0.15mm)))
+
+(rule "RP2354B VREG block"
+    (condition "A.intersectsArea('VREG')")
+    (constraint clearance (min 0.15mm)))

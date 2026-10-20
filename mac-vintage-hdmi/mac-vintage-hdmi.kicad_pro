@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_clearance": 0.2,
+          "min_island_area": 0.0013161349,
+          "min_thickness": 0.2,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -83,10 +83,6 @@
         ],
         [
           "courtyards_overlap|103869932|46785000|9966cbe3-f3bf-479e-bacf-f29177818a7c|a1515b7b-733d-46d4-928a-ba8cfcafbd5e",
-          "intentional"
-        ],
-        [
-          "diff_pair_gap_out_of_range|7565000|39330000|cb3c1273-5190-497c-8d2b-1b0742d931e3|c85dacd2-b698-495e-be61-44e263c2150c",
           "intentional"
         ],
         [
@@ -166,22 +162,6 @@
           "accepable"
         ],
         [
-          "silk_overlap|34000000|10000000|abcb622d-03c9-4e92-93d0-e70cae75a2b3|f316a319-b845-4554-829a-954cc1f5a8ac",
-          "acceptable"
-        ],
-        [
-          "silk_overlap|34000000|8000000|065752cf-a942-421c-b9b9-ff0164ced17e|f316a319-b845-4554-829a-954cc1f5a8ac",
-          "acceptable"
-        ],
-        [
-          "silk_overlap|36000000|10000000|5c619129-4bb3-45a2-ab70-d933de7ba676|f316a319-b845-4554-829a-954cc1f5a8ac",
-          "acceptable"
-        ],
-        [
-          "silk_overlap|36000000|8000000|a18997b7-a60f-4b92-a359-13781b8028e6|f316a319-b845-4554-829a-954cc1f5a8ac",
-          "acceptable"
-        ],
-        [
           "silk_overlap|8095000|18100000|d70a06e7-9b7b-493f-bb47-a16747bbca53|f931e542-ec84-4ae9-a540-0bdaeedd6163",
           "acceptable"
         ],
@@ -210,12 +190,8 @@
           "acceptable"
         ],
         [
-          "skew_out_of_range|13750000|40500000|da89420a-41f0-4eb7-87ec-1b82a7450a04|00000000-0000-0000-0000-000000000000",
-          "required for breakout"
-        ],
-        [
-          "skew_out_of_range|15750000|38500000|ffff36fc-3d16-4084-9d6a-c1ad3152acf5|00000000-0000-0000-0000-000000000000",
-          "required for breakout"
+          "text_thickness|1600000|4800000|d2c481a6-e9f7-4709-a242-692735494ef8|00000000-0000-0000-0000-000000000000",
+          "acceptable"
         ]
       ],
       "meta": {
@@ -303,7 +279,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -730,6 +706,14 @@
       {
         "netclass": "USB2",
         "pattern": "*USB2_D*"
+      },
+      {
+        "netclass": "50_SE",
+        "pattern": "*/Data/ADV7611_Y*"
+      },
+      {
+        "netclass": "50_SE",
+        "pattern": "*/Data/ADV7611_LLC*"
       }
     ]
   },
@@ -737,7 +721,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -790,28 +774,28 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -853,6 +837,18 @@
           "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
           "show": false
         }
       ],
@@ -909,7 +905,7 @@
         "uuid": "13e48c44-097d-4a9e-b5ad-c93c72414a8b"
       }
     ],
-    "used_designators": "#FLG1-12,D1-16,#PWR1-162,Y1-3,TP1-5,FB1-3,C1-86,U1-13,SW1-3,RV1,Q1-10,L1-2,R1-84,J1-12",
+    "used_designators": "#FLG1-12,D1-16,#PWR1-162,Y1-3,TP1-5,FB1-5,C1-86,U1-13,SW1-3,RV1,Q1-10,L1-2,R1-87,J1-12",
     "variants": []
   },
   "sheets": [
